@@ -26,11 +26,11 @@ const HeroSection: React.FC = () => {
         </div>
         
         <div className="text-center md:text-left md:w-2/3">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4 text-gray-900">
+          <h1 className="text-3xl md:text-5xl font-bold mb-4 text-gray-900">
             Manish Kumar Chaurasiya
           </h1>
           <p className="text-xl md:text-2xl mb-6 text-agriculture-700">
-            Agri Enthusiastic & Community Leader
+            Agriculture and Sustainability Enthusiast
           </p>
           <div className="max-w-2xl mx-auto md:mx-0 mb-8">
             <p className="text-lg text-gray-700">

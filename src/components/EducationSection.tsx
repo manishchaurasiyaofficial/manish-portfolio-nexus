@@ -20,7 +20,7 @@ const EducationSection: React.FC = () => {
                   <GraduationCap size={28} className="text-agriculture-600 mr-4" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-agriculture-700">Bachelor in Agriculture</h3>
+                  <h3 className="text-xl font-bold text-agriculture-700">Bachelor in Agriculture (Ongoing)</h3>
                   <p className="text-lg font-medium">Kathmandu University School of Science</p>
                 </div>
               </div>

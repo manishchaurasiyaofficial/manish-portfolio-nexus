@@ -57,7 +57,7 @@ const AboutSection: React.FC = () => {
         <div>
           <h3 className="text-xl font-semibold mb-4 text-agriculture-700">Professional Summary</h3>
           <p className="mb-4">
-            As an agriculture professional with a strong background in community development, I am dedicated to implementing sustainable farming practices and empowering local communities. My experience spans from hands-on agricultural operations to leadership roles in student organizations.
+            As an agriculture professional with a strong background in community development, I am dedicated to implementing sustainable farming practices and empowering local communities. My experience spans from hands-on agricultural operations to leadership roles in organizations.
           </p>
           
           <div className="mt-6">

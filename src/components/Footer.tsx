@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <h3 className="text-xl font-bold">Manish Kumar Chaurasiya</h3>
-            <p className="text-agriculture-200 mt-1">Agri Enthusiastic & Community Leader</p>
+            <p className="text-agriculture-200 mt-1">Agriculture and Sustainability Enthusiast</p>
           </div>
           
           <div className="text-agriculture-300">
