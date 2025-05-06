@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,12 +62,39 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom colors for agriculture-themed portfolio
+				agriculture: {
+					100: '#E6F3E6',
+					200: '#C1E4C1',
+					300: '#92CC92',
+					400: '#5EA95E',
+					500: '#3D8B3D', // Primary green
+					600: '#2E6B2E',
+					700: '#1F4B1F',
+					800: '#173417',
+					900: '#0F230F'
+				},
+				earth: {
+					100: '#F5F0EB',
+					200: '#E6D8CD',
+					300: '#D2BBA9',
+					400: '#C0A28A',
+					500: '#A88668', // Primary earth tone
+					600: '#8C6D53',
+					700: '#6F553F',
+					800: '#53412F',
+					900: '#362B1F'
 				}
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
+			},
+			fontFamily: {
+				sans: ['Inter', 'sans-serif'],
+				serif: ['Merriweather', 'serif'],
 			},
 			keyframes: {
 				'accordion-down': {
@@ -84,11 +112,22 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(10px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.5s ease-out forwards'
 			}
 		}
 	},
