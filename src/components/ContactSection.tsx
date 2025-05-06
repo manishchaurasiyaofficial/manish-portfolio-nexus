@@ -29,7 +29,7 @@ const ContactSection: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-gray-600 text-sm">Email</p>
-                  <p className="font-medium">mc03202822@student.ku.edu.np</p>
+                  <p className="font-medium">chaurasiyamanish500@gmail.com</p>
                 </div>
               </div>
               
@@ -39,8 +39,7 @@ const ContactSection: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-gray-600 text-sm">Home Address</p>
-                  <p className="font-medium">Mahagadhimai - 6, Bara, 44400</p>
-                  <p>Mahagadhimai (Nepal)</p>
+                  <p className="font-medium">Birgunj-15, Parsa 44300 Nepal</p>
                 </div>
               </div>
               
@@ -50,8 +49,7 @@ const ContactSection: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-gray-600 text-sm">Work Address</p>
-                  <p className="font-medium">Kavrepalanchok, 45212</p>
-                  <p>Panchkhal (Nepal)</p>
+                  <p className="font-medium">Kavrepalanchok, Nepal</p>
                 </div>
               </div>
             </div>

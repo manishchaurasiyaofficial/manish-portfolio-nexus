@@ -2,12 +2,41 @@
 import React from 'react';
 import { Code, Languages, Star, Award, Users, Linkedin } from 'lucide-react';
 
+// Create a new AchievementsSection component
+const AchievementsSection: React.FC = () => {
+  return (
+    <div className="mb-16">
+      <div className="flex items-center mb-6">
+        <Award size={24} className="text-agriculture-600 mr-2" />
+        <h3 className="text-2xl font-bold text-agriculture-700">Achievements</h3>
+      </div>
+      
+      <div className="grid md:grid-cols-1 gap-6">
+        <div className="bg-white border border-agriculture-200 rounded-lg p-6 shadow-sm">
+          <h4 className="font-bold text-lg mb-2">U.S. Embassy Youth Council Nepal</h4>
+          <p className="text-gray-600 mb-3">18th Feb 2025 - Current</p>
+          <p>Selected as one of the Top 55 youth nationwide for the USYC Cohort 2025, joining a dynamic network of changemakers to drive transformative impact.</p>
+        </div>
+        
+        <div className="bg-white border border-agriculture-200 rounded-lg p-6 shadow-sm">
+          <h4 className="font-bold text-lg mb-2">NAPA International Research Grant</h4>
+          <p className="text-gray-600 mb-3">23rd Feb 2025 - Current</p>
+          <p>Awarded my first international research grant from NAPA (2024–26) for developing AI-Assisted Anemia Guidance in goats—an innovative project to support smallholder farmers.</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
 const SkillsSection: React.FC = () => {
   return (
     <section id="skills" className="section-container bg-white">
       <h2 className="section-title">Skills</h2>
       
       <div className="mt-12 max-w-5xl mx-auto">
+        {/* Achievements Section */}
+        <AchievementsSection />
+        
         {/* Digital Skills */}
         <div className="mb-16">
           <div className="flex items-center mb-6">
@@ -59,7 +88,7 @@ const SkillsSection: React.FC = () => {
             <span className="bg-agriculture-100 text-agriculture-700 px-4 py-2 rounded-full">Hindi</span>
             <span className="bg-agriculture-100 text-agriculture-700 px-4 py-2 rounded-full">English</span>
             <span className="bg-agriculture-100 text-agriculture-700 px-4 py-2 rounded-full">Maithali</span>
-            <span className="bg-agriculture-100 text-agriculture-700 px-4 py-2 rounded-full">Bhojpuri (Mother tongue)</span>
+            <span className="bg-agriculture-100 text-agriculture-700 px-4 py-2 rounded-full">Bhojpuri</span>
           </div>
         </div>
         
