@@ -77,12 +77,6 @@ const AboutSection: React.FC = () => {
               </div>
             </div>
           </div>
-          
-          <div className="mt-8">
-            <p className="text-lg leading-relaxed bg-earth-100 p-4 border-l-4 border-agriculture-500 rounded">
-              Aspiring to join the USYC 2025 cohort to leverage my leadership skills and experience in community development and innovative projects. Committed to empowering youth and contributing to transformative initiatives.
-            </p>
-          </div>
         </div>
       </div>
     </section>

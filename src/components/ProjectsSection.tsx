@@ -19,7 +19,7 @@ const ProjectsSection: React.FC = () => {
           </div>
           <div className="p-6">
             <p className="text-gray-700">
-              Applied for project entitled 'Developing AI-Assisted Anemia Guidance for Precision Health Monitoring in Goats, which aims to bring cutting-edge AI-technology into the field of livestock health management, particularly for smallholder goat farmers'.
+              I am honored to have received my first international research grant from NAPA – Association of Nepalese Agricultural Professionals of Americas (2024–26) for my project "Developing AI-Assisted Anemia Guidance for Precision Health Monitoring in Goats."
             </p>
           </div>
         </div>
