@@ -18,7 +18,7 @@ const HeroSection: React.FC = () => {
         <div className="mb-8 md:mb-0 flex justify-center md:w-1/3">
           <div className="w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-agriculture-500 shadow-xl">
             <img 
-              src="https://source.unsplash.com/random/300x300/?portrait" 
+              src="/lovable-uploads/d184d979-bd41-4c10-ba99-dc69be897672.png" 
               alt="Manish Kumar Chaurasiya" 
               className="w-full h-full object-cover"
             />

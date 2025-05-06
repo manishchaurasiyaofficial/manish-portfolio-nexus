@@ -21,7 +21,7 @@ const EducationSection: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-agriculture-700">Bachelor in Agriculture</h3>
-                  <p className="text-lg font-medium">Kathmandu University School of Science (Need Based Scholar)</p>
+                  <p className="text-lg font-medium">Kathmandu University School of Science</p>
                 </div>
               </div>
             </div>
@@ -47,7 +47,7 @@ const EducationSection: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-agriculture-700">Secondary Education Examination (S.E.E)</h3>
-                  <p className="text-lg font-medium">Shree Nepal Rastriya MA VI (Government School)</p>
+                  <p className="text-lg font-medium">Shree Nepal Rastriya MA VI</p>
                 </div>
               </div>
             </div>

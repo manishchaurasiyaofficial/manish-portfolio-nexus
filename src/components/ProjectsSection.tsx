@@ -24,7 +24,26 @@ const ProjectsSection: React.FC = () => {
           </div>
         </div>
         
-        {/* Project 2 - Soil Parameters Analysis */}
+        {/* Project 2 - Botanical Extracts Against Cabbage Aphid */}
+        <div className="bg-white rounded-lg shadow-md overflow-hidden card-hover">
+          <div className="bg-agriculture-600 p-4">
+            <h3 className="text-xl font-bold text-white flex items-center">
+              <Code size={20} className="mr-2" />
+              Efficacy of Botanical Extracts Against Cabbage Aphid
+            </h3>
+            <p className="text-agriculture-100 text-sm mt-1">Nov 2024 - Feb 2025</p>
+          </div>
+          <div className="p-6">
+            <p className="text-gray-700">
+              In collaboration with NARC (Nepal Agriculture Research Council)
+            </p>
+            <p className="mt-2">
+              Efficacy of Botanical Extracts Against Cabbage Aphid (Brevicoryne brassicae) in Cauliflower in Panchkhal Kavre, Nepal
+            </p>
+          </div>
+        </div>
+        
+        {/* Project 3 - Soil Parameters Analysis */}
         <div className="bg-white rounded-lg shadow-md overflow-hidden card-hover">
           <div className="bg-agriculture-600 p-4">
             <h3 className="text-xl font-bold text-white flex items-center">
@@ -43,7 +62,7 @@ const ProjectsSection: React.FC = () => {
           </div>
         </div>
         
-        {/* Project 3 - Green Chilly Cultivation */}
+        {/* Project 4 - Green Chilly Cultivation */}
         <div className="bg-white rounded-lg shadow-md overflow-hidden card-hover">
           <div className="bg-agriculture-600 p-4">
             <h3 className="text-xl font-bold text-white flex items-center">

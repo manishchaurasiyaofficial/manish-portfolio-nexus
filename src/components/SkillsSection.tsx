@@ -1,11 +1,11 @@
 
 import React from 'react';
-import { Code, Languages, Star, Award, Users, Calendar, Linkedin } from 'lucide-react';
+import { Code, Languages, Star, Award, Users, Linkedin } from 'lucide-react';
 
 const SkillsSection: React.FC = () => {
   return (
     <section id="skills" className="section-container bg-white">
-      <h2 className="section-title">Skills & Achievements</h2>
+      <h2 className="section-title">Skills</h2>
       
       <div className="mt-12 max-w-5xl mx-auto">
         {/* Digital Skills */}
@@ -39,10 +39,6 @@ const SkillsSection: React.FC = () => {
               <p className="font-medium">Internet and Social Media</p>
             </div>
             <div className="bg-agriculture-50 p-4 rounded-md">
-              <p className="font-medium">IBM SPSS</p>
-              <p className="text-sm text-gray-600">Statistical package for Sciences</p>
-            </div>
-            <div className="bg-agriculture-50 p-4 rounded-md">
               <p className="font-medium">Report-Writing</p>
             </div>
             <div className="bg-agriculture-50 p-4 rounded-md">
@@ -55,58 +51,16 @@ const SkillsSection: React.FC = () => {
         <div className="mb-16">
           <div className="flex items-center mb-6">
             <Languages size={24} className="text-agriculture-600 mr-2" />
-            <h3 className="text-2xl font-bold text-agriculture-700">Language Skills</h3>
+            <h3 className="text-2xl font-bold text-agriculture-700">Languages</h3>
           </div>
           
-          <div className="overflow-x-auto">
-            <table className="w-full border-collapse">
-              <thead>
-                <tr>
-                  <th className="py-3 px-4 text-left bg-agriculture-600 text-white rounded-tl-md">Language</th>
-                  <th className="py-3 px-4 text-left bg-agriculture-600 text-white">Listening</th>
-                  <th className="py-3 px-4 text-left bg-agriculture-600 text-white">Reading</th>
-                  <th className="py-3 px-4 text-left bg-agriculture-600 text-white">Writing</th>
-                  <th className="py-3 px-4 text-left bg-agriculture-600 text-white">Speaking</th>
-                  <th className="py-3 px-4 text-left bg-agriculture-600 text-white rounded-tr-md">Interaction</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr className="bg-agriculture-50 border-b border-agriculture-100">
-                  <td className="py-3 px-4 font-medium">Nepali</td>
-                  <td className="py-3 px-4">C2</td>
-                  <td className="py-3 px-4">C2</td>
-                  <td className="py-3 px-4">C2</td>
-                  <td className="py-3 px-4">C2</td>
-                  <td className="py-3 px-4">C2</td>
-                </tr>
-                <tr className="bg-white border-b border-agriculture-100">
-                  <td className="py-3 px-4 font-medium">Hindi</td>
-                  <td className="py-3 px-4">C1</td>
-                  <td className="py-3 px-4">C1</td>
-                  <td className="py-3 px-4">B2</td>
-                  <td className="py-3 px-4">C1</td>
-                  <td className="py-3 px-4">C1</td>
-                </tr>
-                <tr className="bg-agriculture-50 border-b border-agriculture-100">
-                  <td className="py-3 px-4 font-medium">English</td>
-                  <td className="py-3 px-4">C2</td>
-                  <td className="py-3 px-4">C2</td>
-                  <td className="py-3 px-4">C2</td>
-                  <td className="py-3 px-4">C1</td>
-                  <td className="py-3 px-4">C1</td>
-                </tr>
-                <tr className="bg-white">
-                  <td className="py-3 px-4 font-medium">Maithali</td>
-                  <td className="py-3 px-4">C1</td>
-                  <td className="py-3 px-4">B2</td>
-                  <td className="py-3 px-4">C1</td>
-                  <td className="py-3 px-4">-</td>
-                  <td className="py-3 px-4">C1</td>
-                </tr>
-              </tbody>
-            </table>
+          <div className="flex flex-wrap gap-3">
+            <span className="bg-agriculture-100 text-agriculture-700 px-4 py-2 rounded-full">Nepali</span>
+            <span className="bg-agriculture-100 text-agriculture-700 px-4 py-2 rounded-full">Hindi</span>
+            <span className="bg-agriculture-100 text-agriculture-700 px-4 py-2 rounded-full">English</span>
+            <span className="bg-agriculture-100 text-agriculture-700 px-4 py-2 rounded-full">Maithali</span>
+            <span className="bg-agriculture-100 text-agriculture-700 px-4 py-2 rounded-full">Bhojpuri (Mother tongue)</span>
           </div>
-          <p className="mt-2 text-sm text-gray-600">Mother tongue: Bhojpuri | Levels: A1/A2: Basic, B1/B2: Independent, C1/C2: Proficient</p>
         </div>
         
         {/* Memberships & Networks */}
@@ -116,30 +70,12 @@ const SkillsSection: React.FC = () => {
             <h3 className="text-2xl font-bold text-agriculture-700">Memberships & Networks</h3>
           </div>
           
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="grid md:grid-cols-1 gap-6">
             <div className="bg-white border border-agriculture-200 rounded-lg p-6 shadow-sm">
               <h4 className="font-bold text-lg mb-2">American Society for Microbiology</h4>
               <p className="text-gray-600 mb-1">28/11/2024 – Current | United States of America</p>
               <p>Got opportunity to connect with global researcher, and academicians.</p>
             </div>
-            
-            <div className="bg-white border border-agriculture-200 rounded-lg p-6 shadow-sm">
-              <h4 className="font-bold text-lg mb-2">Kathmandu University Youth Red Cross Circle</h4>
-              <p className="text-gray-600 mb-1">07/09/2023 | Dhulikhel</p>
-            </div>
-          </div>
-        </div>
-        
-        {/* Management & Leadership */}
-        <div className="mb-16">
-          <div className="flex items-center mb-6">
-            <Star size={24} className="text-agriculture-600 mr-2" />
-            <h3 className="text-2xl font-bold text-agriculture-700">Management & Leadership</h3>
-          </div>
-          
-          <div className="bg-white border border-agriculture-200 rounded-lg p-6 shadow-sm">
-            <h4 className="font-bold text-lg mb-2">Class Representative</h4>
-            <p>I have been a class representative since December 2022 until now.</p>
           </div>
         </div>
         
@@ -154,7 +90,11 @@ const SkillsSection: React.FC = () => {
             <div className="bg-white border border-agriculture-200 rounded-lg p-6 shadow-sm">
               <h4 className="font-bold text-lg mb-2">Kathmandu University Convocation</h4>
               <p className="text-gray-600 mb-3">13/12/2024 – 14/12/2024 | Dhulikhel</p>
-              <p>I got an opportunity to participate in the VVIP gesture of SENATE MEMBERS of the university and be part of overall management.</p>
+            </div>
+            
+            <div className="bg-white border border-agriculture-200 rounded-lg p-6 shadow-sm">
+              <h4 className="font-bold text-lg mb-2">Welcome Program 2024</h4>
+              <p className="text-gray-600 mb-3">March 2024 | Chairman</p>
             </div>
             
             <div className="bg-white border border-agriculture-200 rounded-lg p-6 shadow-sm">
@@ -163,8 +103,18 @@ const SkillsSection: React.FC = () => {
             </div>
             
             <div className="bg-white border border-agriculture-200 rounded-lg p-6 shadow-sm">
+              <h4 className="font-bold text-lg mb-2">World Soil Day</h4>
+              <p className="text-gray-600 mb-3">2024 Dec | Panchkhal</p>
+            </div>
+            
+            <div className="bg-white border border-agriculture-200 rounded-lg p-6 shadow-sm">
               <h4 className="font-bold text-lg mb-2">AI MEET 2023</h4>
               <p className="text-gray-600 mb-3">08/09/2023 | Panchkhal</p>
+            </div>
+            
+            <div className="bg-white border border-agriculture-200 rounded-lg p-6 shadow-sm">
+              <h4 className="font-bold text-lg mb-2">Pesticide Awareness Program</h4>
+              <p className="text-gray-600 mb-3">August 2023 | Bara</p>
             </div>
           </div>
         </div>
@@ -218,8 +168,6 @@ const SkillsSection: React.FC = () => {
                 </div>
               </div>
               <div className="mt-4">
-                <p className="mb-1">PhD scholar in Natural Sciences, Johann Wolfgang Goethe University, Germany</p>
-                <p className="mb-1">Oxford University Scholar, Planet under Pressure (2012)</p>
                 <p className="mb-1">Email: ramdevi.shah@ku.edu.np</p>
                 <p className="mb-1">Phone: (+977) 9841432283</p>
               </div>

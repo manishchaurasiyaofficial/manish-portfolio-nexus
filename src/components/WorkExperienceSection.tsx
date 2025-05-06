@@ -27,6 +27,23 @@ const WorkExperienceSection: React.FC = () => {
             </div>
           </div>
           
+          {/* Deputy Coordinator */}
+          <div className="timeline-item">
+            <div className="flex items-start">
+              <div className="mt-1">
+                <Users size={28} className="text-agriculture-600 mr-4" />
+              </div>
+              <div>
+                <div className="bg-agriculture-100 px-3 py-1 rounded-full inline-block mb-2">
+                  <p className="font-semibold text-agriculture-700">07/09/2023 – Current</p>
+                </div>
+                <h3 className="text-xl font-bold text-agriculture-700">Deputy Coordinator</h3>
+                <p className="text-lg font-medium">Kathmandu University Youth Red Cross Circle</p>
+                <p className="text-gray-600">Dhulikhel, Nepal</p>
+              </div>
+            </div>
+          </div>
+          
           {/* Quality Board */}
           <div className="timeline-item">
             <div className="flex items-start">

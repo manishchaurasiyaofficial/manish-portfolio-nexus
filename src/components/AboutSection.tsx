@@ -28,7 +28,7 @@ const AboutSection: React.FC = () => {
               </div>
               <div>
                 <p className="font-medium text-gray-700">Email</p>
-                <p className="break-all">mc03202822@student.ku.edu.np</p>
+                <p className="break-all">chaurasiyamanish500@gmail.com</p>
               </div>
             </div>
             
@@ -38,7 +38,7 @@ const AboutSection: React.FC = () => {
               </div>
               <div>
                 <p className="font-medium text-gray-700">Home</p>
-                <p>Mahagadhimai - 6, Bara, 44400 Mahagadhimai (Nepal)</p>
+                <p>Birgunj-15, Parsa 44300 Nepal</p>
               </div>
             </div>
             
@@ -48,7 +48,7 @@ const AboutSection: React.FC = () => {
               </div>
               <div>
                 <p className="font-medium text-gray-700">Work</p>
-                <p>Kavrepalanchok, 45212 Panchkhal (Nepal)</p>
+                <p>Kavrepalanchok, Nepal</p>
               </div>
             </div>
           </div>
