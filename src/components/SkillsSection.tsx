@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Code, Language, Star, Award, Users, Calendar, Linkedin } from 'lucide-react';
+import { Code, Languages, Star, Award, Users, Calendar, Linkedin } from 'lucide-react';
 
 const SkillsSection: React.FC = () => {
   return (
@@ -54,7 +54,7 @@ const SkillsSection: React.FC = () => {
         {/* Language Skills */}
         <div className="mb-16">
           <div className="flex items-center mb-6">
-            <Language size={24} className="text-agriculture-600 mr-2" />
+            <Languages size={24} className="text-agriculture-600 mr-2" />
             <h3 className="text-2xl font-bold text-agriculture-700">Language Skills</h3>
           </div>
           
